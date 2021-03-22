@@ -41,8 +41,19 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "toSecondController"){
+            if(timer != nil) {
+                // 停止時の処理を実装
+                // タイマーを停止する
+                self.timer.invalidate()
+                
+                // タイマーを削除しておく(timer.invalidateだけだとtimerがnilにならないため)
+                self.timer = nil
+                
+                // ボタンの名前を再生に直しておく
+                startButton.setTitle("再生", for: .normal)
+            }
             // segueから遷移先のResultViewControllerを取得する
-            let secondController:SecondController = segue.destination as! SecondController
+            let secondController: SecondController = segue.destination as! SecondController
             // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
             selectedImage = imageArray[nowIndex]
             secondController.selectedImg = selectedImage

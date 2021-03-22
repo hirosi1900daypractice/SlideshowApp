@@ -99,14 +99,14 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="xvo-BG-gdg"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsO-V3-XYR">
-                                <rect key="frame" x="100" y="567" width="175" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsO-V3-XYR">
+                                <rect key="frame" x="100" y="555" width="159" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="35" id="8yy-8W-Did"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="57" id="EL5-7j-E61"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="1mX-0x-zsA" kind="unwind" unwindAction="unwind:" id="MZJ-9c-Lz7"/>
                                 </connections>
