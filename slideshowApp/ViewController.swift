@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             }
             nowIndex -= 1
             
-            print(nowIndex)
+       
             // indexを増やして表示する画像を切り替える
             
             // indexの画像をstoryboardの画像にセットする
@@ -126,6 +126,7 @@ class ViewController: UIViewController {
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         // 他の画面から segue を使って戻ってきた時に呼ばれる
+        
     }
     
     

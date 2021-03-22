@@ -43,7 +43,6 @@
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Tb-ig-R35"/>
-                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRA-k9-AgH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9f-Jl-VW9">
